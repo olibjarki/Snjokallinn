@@ -1,0 +1,46 @@
+{
+  "format": "custom",
+  "id": "nav",
+  "label": "Nav",
+  "repeatable": false,
+  "status": true,
+  "json": {
+    "Main": {
+      "navlinks": {
+        "type": "Group",
+        "config": {
+          "label": "NavLinks",
+          "repeat": true,
+          "fields": {
+            "label": {
+              "type": "Text",
+              "config": {
+                "label": "Label",
+                "placeholder": ""
+              }
+            },
+            "link": {
+              "type": "Link",
+              "config": {
+                "label": "Link",
+                "placeholder": "",
+                "select": null,
+                "allowTargetBlank": true,
+                "allowText": true,
+                "repeat": false
+              }
+            }
+          }
+        }
+      },
+      "menu_background": {
+        "type": "Image",
+        "config": {
+          "label": "menu_background",
+          "constraint": {},
+          "thumbnails": []
+        }
+      }
+    }
+  }
+}
