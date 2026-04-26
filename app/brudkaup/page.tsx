@@ -18,6 +18,7 @@ export default async function Brudkaup() {
     <main className="flex flex-col gap-10">
         <PrismicNextImage
             field={page.data.brudkauphero}
+            preload
         />
         <div className="flex flex-col gap-4 mx-8">
             <PrismicRichText

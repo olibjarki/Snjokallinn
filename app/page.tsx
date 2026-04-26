@@ -24,7 +24,7 @@ export default async function HomePage() {
           field={page.data.heading}
           components={{
             heading1: ({ children }) => (
-            <h1 className="font-bubblegum text-3xl text-black leading-tight text-center">{children}</h1>
+            <h1 className="font-bubblegum text-3xl text-black leading-4 text-center">{children}</h1>
             ),
           }}
         />

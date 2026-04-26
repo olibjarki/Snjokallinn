@@ -17,6 +17,7 @@ export default async function About() {
     <main className="flex flex-col gap-10">
         <PrismicNextImage 
             field={page.data.profile}
+            preload
         />
         <div className="flex flex-col gap-4 mx-8">
             <PrismicRichText 
@@ -36,6 +37,7 @@ export default async function About() {
                 }}
             />
         </div>
+        <div className="h-100"></div>
     </main>
     </>
     );
